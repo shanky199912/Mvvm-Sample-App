@@ -1,4 +1,4 @@
-package com.example.mvvmsampleapp.Utils
+package com.example.mvvmsampleapp.utils
 
 import android.content.Context
 import android.widget.Toast

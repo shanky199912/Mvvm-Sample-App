@@ -1,4 +1,4 @@
-package com.example.mvvmsampleapp.UI.Auth
+package com.example.mvvmsampleapp.ui.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
