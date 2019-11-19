@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
+ <!--2 way data binding is done here-->
     <data>
         <variable
             name="viewmodel"
@@ -70,6 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
+                <!-- @={} for edit text -->
                 <EditText
                     android:text="@={viewmodel.email}"
                     android:hint="belal@gmail.com"
@@ -102,6 +103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
 
+                <!-- @{} for button on click -->
                 <Button
                     android:onClick="@{viewmodel::onSignInBtnClicked}"
                     android:layout_gravity="center_horizontal"
